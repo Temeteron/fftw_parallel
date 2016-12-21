@@ -28,22 +28,6 @@ int main ( void )
       B[I*2+0], the real part,
       B[I*2+1], the imaginary part.
 
-  Modified:
-
-    20 March 2009
-
-  Author:
-
-    Original C version by Wesley Petersen.
-    This C version by John Burkardt.
-
-  Reference:
-
-    Wesley Petersen, Peter Arbenz, 
-    Introduction to Parallel Computing - A practical guide with examples in C,
-    Oxford University Press,
-    ISBN: 0-19-851576-6,
-    LC: QA76.58.P47.
 */
 {
   double error;
@@ -242,23 +226,6 @@ void ccopy ( int n, double x[], double y[] )
       B[I*2+0], the real part,
       B[I*2+1], the imaginary part.
 
-  Modified:
-
-    20 March 2009
-
-  Author:
-
-    Original C version by Wesley Petersen.
-    This C version by John Burkardt.
-
-  Reference:
-
-    Wesley Petersen, Peter Arbenz, 
-    Introduction to Parallel Computing - A practical guide with examples in C,
-    Oxford University Press,
-    ISBN: 0-19-851576-6,
-    LC: QA76.58.P47.
-
   Parameters:
 
     Input, int N, the length of the vector.
@@ -286,23 +253,6 @@ void cfft2 ( int n, double x[], double y[], double w[], double sgn )
   Purpose:
 
     CFFT2 performs a complex Fast Fourier Transform.
-
-  Modified:
-
-    20 March 2009
-
-  Author:
-
-    Original C version by Wesley Petersen.
-    This C version by John Burkardt.
-
-  Reference:
-
-    Wesley Petersen, Peter Arbenz, 
-    Introduction to Parallel Computing - A practical guide with examples in C,
-    Oxford University Press,
-    ISBN: 0-19-851576-6,
-    LC: QA76.58.P47.
 
   Parameters:
 
@@ -373,22 +323,6 @@ void cffti ( int n, double w[] )
 
     CFFTI sets up sine and cosine tables needed for the FFT calculation.
 
-  Modified:
-
-    20 March 2009
-
-  Author:
-
-    Original C version by Wesley Petersen.
-    This C version by John Burkardt.
-
-  Reference:
-
-    Wesley Petersen, Peter Arbenz, 
-    Introduction to Parallel Computing - A practical guide with examples in C,
-    Oxford University Press,
-    ISBN: 0-19-851576-6,
-    LC: QA76.58.P47.
 
   Parameters:
 
@@ -430,23 +364,6 @@ double ggl ( double *seed )
 
     GGL generates uniformly distributed pseudorandom real numbers in [0,1]. 
 
-  Modified:
-
-    20 March 2009
-
-  Author:
-
-    Original C version by Wesley Petersen, M Troyer, I Vattulainen.
-    This C version by John Burkardt.
-
-  Reference:
-
-    Wesley Petersen, Peter Arbenz, 
-    Introduction to Parallel Computing - A practical guide with examples in C,
-    Oxford University Press,
-    ISBN: 0-19-851576-6,
-    LC: QA76.58.P47.
-
   Parameters:
 
     Input/output, double *SEED, used as a seed for the sequence.
@@ -475,25 +392,6 @@ void step ( int n, int mj, double a[], double b[], double c[],
   Purpose:
 
     STEP carries out one step of the workspace version of CFFT2.
-
-  Modified:
-
-    20 March 2009
-
-  Author:
-
-    Original C version by Wesley Petersen.
-    This C version by John Burkardt.
-
-  Reference:
-
-    Wesley Petersen, Peter Arbenz, 
-    Introduction to Parallel Computing - A practical guide with examples in C,
-    Oxford University Press,
-    ISBN: 0-19-851576-6,
-    LC: QA76.58.P47.
-
-  Parameters:
 
 */
 {
@@ -562,18 +460,6 @@ void timestamp ( void )
   Example:
 
     31 May 2001 09:45:54 AM
-
-  Licensing:
-
-    This code is distributed under the GNU LGPL license. 
-
-  Modified:
-
-    24 September 2003
-
-  Author:
-
-    John Burkardt
 
   Parameters:
 
